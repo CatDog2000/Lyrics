@@ -1,0 +1,47 @@
+/* アクセシビリティ用: 画面非表示 */
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0,0,0,0);
+  border: 0;
+}
+body {
+  font-family: sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+}
+
+#lyrics {
+  margin-top: 2rem;
+  line-height: 1.6;
+}
+
+
+.lyric-line {
+  cursor: pointer;
+  padding: 0.2rem;
+  display: flex;
+  gap: 2em;
+  align-items: baseline;
+}
+
+.lyric-jp {
+  flex: 1 1 50%;
+  text-align: left;
+}
+.lyric-en {
+  flex: 1 1 50%;
+  text-align: left;
+  color: #555;
+  font-size: 0.98em;
+  margin-left: 1em;
+}
+
+.lyric-line.active {
+  background-color: #d0eaff;
+  font-weight: bold;
+}

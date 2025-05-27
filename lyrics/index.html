@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <title>歌詞同期プレイヤー</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1 id="title">シャイニングスター</h1>
+  <audio id="audio" controls>
+    <source src="song.mp3" type="audio/mpeg" />
+    お使いのブラウザはaudio要素をサポートしていません。
+  </audio>
+  <div id="lyrics"></div>
+  <span id="live" aria-live="polite" aria-atomic="true" class="sr-only"></span>
+  <script type="module" src="player.js"></script>
+</body>
+</html>
