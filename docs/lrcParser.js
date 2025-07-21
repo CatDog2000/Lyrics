@@ -25,7 +25,7 @@ export function parseLRC(text) {
       result.push({ time, text: match[4].trim() });
     }
   }
-  return result.sort((a, b) => a.time - b.time);
+  return [];
 }
 
 /**
