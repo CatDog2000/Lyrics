@@ -1,0 +1,27 @@
+{
+  "name": "lyrics",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CatDog2000/Lyrics.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/CatDog2000/Lyrics/issues"
+  },
+  "homepage": "https://github.com/CatDog2000/Lyrics#readme",
+  "devDependencies": {
+    "jest": "^30.0.4"
+  }
+}
